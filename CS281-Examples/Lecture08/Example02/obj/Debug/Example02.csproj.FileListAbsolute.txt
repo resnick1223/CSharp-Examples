@@ -1,0 +1,13 @@
+C:\CS281-Examples\Lecture08\Example02\bin\Debug\Example02.exe.config
+C:\CS281-Examples\Lecture08\Example02\bin\Debug\Example02.exe
+C:\CS281-Examples\Lecture08\Example02\bin\Debug\Example02.pdb
+C:\CS281-Examples\Lecture08\Example02\bin\Debug\PokemonLibrary.dll
+C:\CS281-Examples\Lecture08\Example02\bin\Debug\MyToolBox.dll
+C:\CS281-Examples\Lecture08\Example02\bin\Debug\PokemonLibrary.pdb
+C:\CS281-Examples\Lecture08\Example02\bin\Debug\MyToolBox.pdb
+C:\CS281-Examples\Lecture08\Example02\obj\Debug\Example02.csprojResolveAssemblyReference.cache
+C:\CS281-Examples\Lecture08\Example02\obj\Debug\Example02.Form1.resources
+C:\CS281-Examples\Lecture08\Example02\obj\Debug\Example02.Properties.Resources.resources
+C:\CS281-Examples\Lecture08\Example02\obj\Debug\Example02.csproj.GenerateResource.Cache
+C:\CS281-Examples\Lecture08\Example02\obj\Debug\Example02.exe
+C:\CS281-Examples\Lecture08\Example02\obj\Debug\Example02.pdb

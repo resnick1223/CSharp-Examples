@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PokemonLibrary.Pokemon" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABAAAAAAEEICAAAQAACAAAAAAAAQAAACAQAA=</HashCode>
+      <FileName>Pokemon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonLibrary.GrassTypePokemon">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GrassTypePokemon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonLibrary.FireTypePokemon">
+    <Position X="3.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FireTypePokemon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonLibrary.WaterTypePokemon">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WaterTypePokemon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonLibrary.ElectricTypePokemon">
+    <Position X="8.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ElectricTypePokemon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonLibrary.Bulbasaur">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bulbasaur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft JhengHei UI" Size="9" />
+</ClassDiagram>

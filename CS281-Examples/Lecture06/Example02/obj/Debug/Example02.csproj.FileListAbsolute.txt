@@ -1,0 +1,8 @@
+C:\CS281-Examples\Lecture06\Example02\bin\Debug\Example02.exe.config
+C:\CS281-Examples\Lecture06\Example02\bin\Debug\Example02.exe
+C:\CS281-Examples\Lecture06\Example02\bin\Debug\Example02.pdb
+C:\CS281-Examples\Lecture06\Example02\bin\Debug\EasyStoreLibrary.dll
+C:\CS281-Examples\Lecture06\Example02\bin\Debug\EasyStoreLibrary.pdb
+C:\CS281-Examples\Lecture06\Example02\obj\Debug\Example02.csprojResolveAssemblyReference.cache
+C:\CS281-Examples\Lecture06\Example02\obj\Debug\Example02.exe
+C:\CS281-Examples\Lecture06\Example02\obj\Debug\Example02.pdb

@@ -1,0 +1,7 @@
+C:\CS281-Examples\Lecture07\MathLibrary\bin\Debug\MathLibrary.dll
+C:\CS281-Examples\Lecture07\MathLibrary\bin\Debug\MathLibrary.pdb
+C:\CS281-Examples\Lecture07\MathLibrary\bin\Debug\MyToolBox.dll
+C:\CS281-Examples\Lecture07\MathLibrary\bin\Debug\MyToolBox.pdb
+C:\CS281-Examples\Lecture07\MathLibrary\obj\Debug\MathLibrary.csprojResolveAssemblyReference.cache
+C:\CS281-Examples\Lecture07\MathLibrary\obj\Debug\MathLibrary.dll
+C:\CS281-Examples\Lecture07\MathLibrary\obj\Debug\MathLibrary.pdb

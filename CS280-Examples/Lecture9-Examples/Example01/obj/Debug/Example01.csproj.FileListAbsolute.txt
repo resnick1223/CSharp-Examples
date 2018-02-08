@@ -1,0 +1,11 @@
+C:\Courses\CS280-Examples\Lecture9-Examples\Example01\bin\Debug\Example01.dll.config
+C:\Courses\CS280-Examples\Lecture9-Examples\Example01\bin\Debug\Example01.dll
+C:\Courses\CS280-Examples\Lecture9-Examples\Example01\bin\Debug\Example01.pdb
+C:\Courses\CS280-Examples\Lecture9-Examples\Example01\bin\Debug\EntityFramework.dll
+C:\Courses\CS280-Examples\Lecture9-Examples\Example01\bin\Debug\MyExtensions.dll
+C:\Courses\CS280-Examples\Lecture9-Examples\Example01\bin\Debug\MyExtensions.pdb
+C:\Courses\CS280-Examples\Lecture9-Examples\Example01\bin\Debug\EntityFramework.xml
+C:\Courses\CS280-Examples\Lecture9-Examples\Example01\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Courses\CS280-Examples\Lecture9-Examples\Example01\obj\Debug\Example01.csprojResolveAssemblyReference.cache
+C:\Courses\CS280-Examples\Lecture9-Examples\Example01\obj\Debug\Example01.dll
+C:\Courses\CS280-Examples\Lecture9-Examples\Example01\obj\Debug\Example01.pdb

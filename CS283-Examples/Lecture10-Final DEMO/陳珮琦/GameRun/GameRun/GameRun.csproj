@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6E1FC8AB-A6DB-4FBC-AE8F-4BBE77876242}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GameRun</RootNamespace>
+    <AssemblyName>GameRun</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BattleScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BattleScreen.Designer.cs">
+      <DependentUpon>BattleScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="開寶.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="開寶.Designer.cs">
+      <DependentUpon>開寶.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BattleScreen.resx">
+      <DependentUpon>BattleScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="開寶.resx">
+      <DependentUpon>開寶.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Attack1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Attack2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Attack3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Defence1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Defence2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Defence3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gym1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battlebang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backpack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nothing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EasyMathLibrary\EasyMathLibrary.csproj">
+      <Project>{0ce7638d-7e90-4515-8a47-b4e3eb0aa474}</Project>
+      <Name>EasyMathLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameRunLibrary\GameRunLibrary.csproj">
+      <Project>{2cf2cee8-0d80-4b1f-9778-29b787eff8f5}</Project>
+      <Name>GameRunLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\010.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\013.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\014.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\015.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\016.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\017.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\018.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\019.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\020.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

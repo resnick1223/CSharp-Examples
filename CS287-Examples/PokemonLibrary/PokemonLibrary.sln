@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonLibrary", "PokemonLibrary\PokemonLibrary.csproj", "{25655DA0-E7F4-4CAD-9F12-96F385749A74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{FFA1F2F6-5609-4A2D-B70C-6509FA935D51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMath.NET", "..\EasyMath.NET\EasyMath.NET\EasyMath.NET.csproj", "{5649243D-8E1A-4221-9AD8-B160806BE74B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25655DA0-E7F4-4CAD-9F12-96F385749A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25655DA0-E7F4-4CAD-9F12-96F385749A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25655DA0-E7F4-4CAD-9F12-96F385749A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25655DA0-E7F4-4CAD-9F12-96F385749A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA1F2F6-5609-4A2D-B70C-6509FA935D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA1F2F6-5609-4A2D-B70C-6509FA935D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA1F2F6-5609-4A2D-B70C-6509FA935D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA1F2F6-5609-4A2D-B70C-6509FA935D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5649243D-8E1A-4221-9AD8-B160806BE74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5649243D-8E1A-4221-9AD8-B160806BE74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5649243D-8E1A-4221-9AD8-B160806BE74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5649243D-8E1A-4221-9AD8-B160806BE74B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

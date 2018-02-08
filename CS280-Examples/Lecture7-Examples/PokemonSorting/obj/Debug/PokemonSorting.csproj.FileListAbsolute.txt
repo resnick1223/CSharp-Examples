@@ -1,0 +1,8 @@
+c:\users\resnick\Dropbox\GitHub\Courses\CS280-Examples\Lecture7-Examples\PokemonSorting\bin\Debug\PokemonSorting.exe.config
+c:\users\resnick\Dropbox\GitHub\Courses\CS280-Examples\Lecture7-Examples\PokemonSorting\bin\Debug\PokemonSorting.exe
+c:\users\resnick\Dropbox\GitHub\Courses\CS280-Examples\Lecture7-Examples\PokemonSorting\bin\Debug\PokemonSorting.pdb
+c:\users\resnick\Dropbox\GitHub\Courses\CS280-Examples\Lecture7-Examples\PokemonSorting\obj\Debug\PokemonSorting.csprojResolveAssemblyReference.cache
+c:\users\resnick\Dropbox\GitHub\Courses\CS280-Examples\Lecture7-Examples\PokemonSorting\obj\Debug\PokemonSorting.exe
+c:\users\resnick\Dropbox\GitHub\Courses\CS280-Examples\Lecture7-Examples\PokemonSorting\obj\Debug\PokemonSorting.pdb
+c:\users\resnick\Dropbox\GitHub\Courses\CS280-Examples\Lecture7-Examples\PokemonSorting\bin\Debug\PokemonLibrary.dll
+c:\users\resnick\Dropbox\GitHub\Courses\CS280-Examples\Lecture7-Examples\PokemonSorting\bin\Debug\PokemonLibrary.pdb

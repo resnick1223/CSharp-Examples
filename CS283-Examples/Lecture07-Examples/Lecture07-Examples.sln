@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyCalculator", "Party Calculator\PartyCalculator\PartyCalculator.csproj", "{3785E823-86D5-4007-872B-9CA2DAF71076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMathLibrary", "..\CommonLibraries\EasyMathLibrary\EasyMathLibrary.csproj", "{0CE7638D-7E90-4515-8A47-B4E3EB0AA474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example01", "Example01\Example01.csproj", "{8E95CC60-3960-4580-98CD-1E8D3794BA14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3785E823-86D5-4007-872B-9CA2DAF71076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3785E823-86D5-4007-872B-9CA2DAF71076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3785E823-86D5-4007-872B-9CA2DAF71076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3785E823-86D5-4007-872B-9CA2DAF71076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CE7638D-7E90-4515-8A47-B4E3EB0AA474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE7638D-7E90-4515-8A47-B4E3EB0AA474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE7638D-7E90-4515-8A47-B4E3EB0AA474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE7638D-7E90-4515-8A47-B4E3EB0AA474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E95CC60-3960-4580-98CD-1E8D3794BA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E95CC60-3960-4580-98CD-1E8D3794BA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E95CC60-3960-4580-98CD-1E8D3794BA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E95CC60-3960-4580-98CD-1E8D3794BA14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
