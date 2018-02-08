@@ -1,0 +1,9 @@
+C:\CS294-Repos\0207\Example02_static_method\bin\Debug\Example02_static_method.exe.config
+C:\CS294-Repos\0207\Example02_static_method\bin\Debug\Example02_static_method.exe
+C:\CS294-Repos\0207\Example02_static_method\bin\Debug\Example02_static_method.pdb
+C:\CS294-Repos\0207\Example02_static_method\bin\Debug\MathEngine.dll
+C:\CS294-Repos\0207\Example02_static_method\bin\Debug\MathEngine.pdb
+C:\CS294-Repos\0207\Example02_static_method\obj\Debug\Example02_static_method.csprojResolveAssemblyReference.cache
+C:\CS294-Repos\0207\Example02_static_method\obj\Debug\Example02_static_method.csproj.CoreCompileInputs.cache
+C:\CS294-Repos\0207\Example02_static_method\obj\Debug\Example02_static_method.exe
+C:\CS294-Repos\0207\Example02_static_method\obj\Debug\Example02_static_method.pdb

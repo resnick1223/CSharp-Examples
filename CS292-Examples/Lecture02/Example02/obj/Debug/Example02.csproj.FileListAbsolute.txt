@@ -1,0 +1,6 @@
+C:\CS292-Repos\Lecture02\Example02\bin\Debug\Example02.exe.config
+C:\CS292-Repos\Lecture02\Example02\bin\Debug\Example02.exe
+C:\CS292-Repos\Lecture02\Example02\bin\Debug\Example02.pdb
+C:\CS292-Repos\Lecture02\Example02\obj\Debug\Example02.csproj.CoreCompileInputs.cache
+C:\CS292-Repos\Lecture02\Example02\obj\Debug\Example02.exe
+C:\CS292-Repos\Lecture02\Example02\obj\Debug\Example02.pdb

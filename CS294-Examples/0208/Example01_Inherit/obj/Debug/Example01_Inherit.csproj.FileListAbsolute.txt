@@ -1,0 +1,9 @@
+C:\CS294-Repos\0208\Example01_Inherit\bin\Debug\Example01_Inherit.exe.config
+C:\CS294-Repos\0208\Example01_Inherit\bin\Debug\Example01_Inherit.exe
+C:\CS294-Repos\0208\Example01_Inherit\bin\Debug\Example01_Inherit.pdb
+C:\CS294-Repos\0208\Example01_Inherit\bin\Debug\EmployeeLibrary.dll
+C:\CS294-Repos\0208\Example01_Inherit\bin\Debug\EmployeeLibrary.pdb
+C:\CS294-Repos\0208\Example01_Inherit\obj\Debug\Example01_Inherit.csprojResolveAssemblyReference.cache
+C:\CS294-Repos\0208\Example01_Inherit\obj\Debug\Example01_Inherit.csproj.CoreCompileInputs.cache
+C:\CS294-Repos\0208\Example01_Inherit\obj\Debug\Example01_Inherit.exe
+C:\CS294-Repos\0208\Example01_Inherit\obj\Debug\Example01_Inherit.pdb

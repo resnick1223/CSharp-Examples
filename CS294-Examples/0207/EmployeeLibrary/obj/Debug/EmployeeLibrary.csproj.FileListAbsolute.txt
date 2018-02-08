@@ -1,0 +1,6 @@
+C:\CS294-Repos\0207\EmployeeLibrary\bin\Debug\EmployeeLibrary.dll
+C:\CS294-Repos\0207\EmployeeLibrary\bin\Debug\EmployeeLibrary.pdb
+C:\CS294-Repos\0207\EmployeeLibrary\obj\Debug\EmployeeLibrary.csprojResolveAssemblyReference.cache
+C:\CS294-Repos\0207\EmployeeLibrary\obj\Debug\EmployeeLibrary.csproj.CoreCompileInputs.cache
+C:\CS294-Repos\0207\EmployeeLibrary\obj\Debug\EmployeeLibrary.dll
+C:\CS294-Repos\0207\EmployeeLibrary\obj\Debug\EmployeeLibrary.pdb

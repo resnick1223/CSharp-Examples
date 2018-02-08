@@ -1,0 +1,7 @@
+C:\CS294-Repos\0202\Example02_WhileLoop\bin\Debug\Example02_WhileLoop.exe.config
+C:\CS294-Repos\0202\Example02_WhileLoop\bin\Debug\Example02_WhileLoop.exe
+C:\CS294-Repos\0202\Example02_WhileLoop\bin\Debug\Example02_WhileLoop.pdb
+C:\CS294-Repos\0202\Example02_WhileLoop\obj\Debug\Example02_WhileLoop.csprojResolveAssemblyReference.cache
+C:\CS294-Repos\0202\Example02_WhileLoop\obj\Debug\Example02_WhileLoop.csproj.CoreCompileInputs.cache
+C:\CS294-Repos\0202\Example02_WhileLoop\obj\Debug\Example02_WhileLoop.exe
+C:\CS294-Repos\0202\Example02_WhileLoop\obj\Debug\Example02_WhileLoop.pdb

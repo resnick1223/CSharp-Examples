@@ -1,0 +1,7 @@
+C:\CS294-Repos\0201\Example02_ForLoop1\bin\Debug\Example02_ForLoop1.exe.config
+C:\CS294-Repos\0201\Example02_ForLoop1\bin\Debug\Example02_ForLoop1.exe
+C:\CS294-Repos\0201\Example02_ForLoop1\bin\Debug\Example02_ForLoop1.pdb
+C:\CS294-Repos\0201\Example02_ForLoop1\obj\Debug\Example02_ForLoop1.csprojResolveAssemblyReference.cache
+C:\CS294-Repos\0201\Example02_ForLoop1\obj\Debug\Example02_ForLoop1.csproj.CoreCompileInputs.cache
+C:\CS294-Repos\0201\Example02_ForLoop1\obj\Debug\Example02_ForLoop1.exe
+C:\CS294-Repos\0201\Example02_ForLoop1\obj\Debug\Example02_ForLoop1.pdb

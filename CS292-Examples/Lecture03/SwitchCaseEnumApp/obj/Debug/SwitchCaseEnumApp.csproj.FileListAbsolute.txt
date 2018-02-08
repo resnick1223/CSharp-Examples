@@ -1,0 +1,6 @@
+C:\CS292-Repos\Lecture03\SwitchCaseEnumApp\bin\Debug\SwitchCaseEnumApp.pdb
+C:\CS292-Repos\Lecture03\SwitchCaseEnumApp\obj\Debug\SwitchCaseEnumApp.csproj.CoreCompileInputs.cache
+C:\CS292-Repos\Lecture03\SwitchCaseEnumApp\obj\Debug\SwitchCaseEnumApp.pdb
+C:\CS292-Repos\Lecture03\SwitchCaseEnumApp\bin\Debug\SwitchCaseEnumApp.dll.config
+C:\CS292-Repos\Lecture03\SwitchCaseEnumApp\bin\Debug\SwitchCaseEnumApp.dll
+C:\CS292-Repos\Lecture03\SwitchCaseEnumApp\obj\Debug\SwitchCaseEnumApp.dll

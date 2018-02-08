@@ -1,0 +1,6 @@
+C:\CS294-Repos\0205\SchoolLibrary\bin\Debug\SchoolLibrary.dll
+C:\CS294-Repos\0205\SchoolLibrary\bin\Debug\SchoolLibrary.pdb
+C:\CS294-Repos\0205\SchoolLibrary\obj\Debug\SchoolLibrary.csproj.CoreCompileInputs.cache
+C:\CS294-Repos\0205\SchoolLibrary\obj\Debug\SchoolLibrary.dll
+C:\CS294-Repos\0205\SchoolLibrary\obj\Debug\SchoolLibrary.pdb
+C:\CS294-Repos\0205\SchoolLibrary\obj\Debug\SchoolLibrary.csprojResolveAssemblyReference.cache

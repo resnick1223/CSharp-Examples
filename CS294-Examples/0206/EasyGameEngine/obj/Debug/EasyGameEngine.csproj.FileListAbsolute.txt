@@ -1,0 +1,6 @@
+C:\CS294-Repos\0206\EasyGameEngine\bin\Debug\EasyGameEngine.dll
+C:\CS294-Repos\0206\EasyGameEngine\bin\Debug\EasyGameEngine.pdb
+C:\CS294-Repos\0206\EasyGameEngine\obj\Debug\EasyGameEngine.csprojResolveAssemblyReference.cache
+C:\CS294-Repos\0206\EasyGameEngine\obj\Debug\EasyGameEngine.csproj.CoreCompileInputs.cache
+C:\CS294-Repos\0206\EasyGameEngine\obj\Debug\EasyGameEngine.dll
+C:\CS294-Repos\0206\EasyGameEngine\obj\Debug\EasyGameEngine.pdb

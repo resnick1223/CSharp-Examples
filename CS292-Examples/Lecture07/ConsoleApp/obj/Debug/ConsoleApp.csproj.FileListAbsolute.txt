@@ -1,0 +1,9 @@
+C:\CS292-Repos\Lecture07\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\CS292-Repos\Lecture07\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\CS292-Repos\Lecture07\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\CS292-Repos\Lecture07\ConsoleApp\bin\Debug\PokemonLibrary.dll
+C:\CS292-Repos\Lecture07\ConsoleApp\bin\Debug\PokemonLibrary.pdb
+C:\CS292-Repos\Lecture07\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+C:\CS292-Repos\Lecture07\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\CS292-Repos\Lecture07\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\CS292-Repos\Lecture07\ConsoleApp\obj\Debug\ConsoleApp.pdb

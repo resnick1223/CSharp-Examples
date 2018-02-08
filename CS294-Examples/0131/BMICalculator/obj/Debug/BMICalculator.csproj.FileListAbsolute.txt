@@ -1,0 +1,10 @@
+C:\CS294-Repos\0131\BMICalculator\bin\Debug\BMICalculator.exe.config
+C:\CS294-Repos\0131\BMICalculator\bin\Debug\BMICalculator.exe
+C:\CS294-Repos\0131\BMICalculator\bin\Debug\BMICalculator.pdb
+C:\CS294-Repos\0131\BMICalculator\obj\Debug\BMICalculator.csprojResolveAssemblyReference.cache
+C:\CS294-Repos\0131\BMICalculator\obj\Debug\BMICalculator.MainWindow.resources
+C:\CS294-Repos\0131\BMICalculator\obj\Debug\BMICalculator.Properties.Resources.resources
+C:\CS294-Repos\0131\BMICalculator\obj\Debug\BMICalculator.csproj.GenerateResource.Cache
+C:\CS294-Repos\0131\BMICalculator\obj\Debug\BMICalculator.csproj.CoreCompileInputs.cache
+C:\CS294-Repos\0131\BMICalculator\obj\Debug\BMICalculator.exe
+C:\CS294-Repos\0131\BMICalculator\obj\Debug\BMICalculator.pdb

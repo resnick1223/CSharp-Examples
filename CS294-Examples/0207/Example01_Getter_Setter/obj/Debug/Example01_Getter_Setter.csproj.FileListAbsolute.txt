@@ -1,0 +1,9 @@
+C:\CS294-Repos\0207\Example01_Getter_Setter\bin\Debug\Example01_Getter_Setter.exe.config
+C:\CS294-Repos\0207\Example01_Getter_Setter\bin\Debug\Example01_Getter_Setter.exe
+C:\CS294-Repos\0207\Example01_Getter_Setter\bin\Debug\Example01_Getter_Setter.pdb
+C:\CS294-Repos\0207\Example01_Getter_Setter\bin\Debug\EmployeeLibrary.dll
+C:\CS294-Repos\0207\Example01_Getter_Setter\bin\Debug\EmployeeLibrary.pdb
+C:\CS294-Repos\0207\Example01_Getter_Setter\obj\Debug\Example01_Getter_Setter.csprojResolveAssemblyReference.cache
+C:\CS294-Repos\0207\Example01_Getter_Setter\obj\Debug\Example01_Getter_Setter.csproj.CoreCompileInputs.cache
+C:\CS294-Repos\0207\Example01_Getter_Setter\obj\Debug\Example01_Getter_Setter.exe
+C:\CS294-Repos\0207\Example01_Getter_Setter\obj\Debug\Example01_Getter_Setter.pdb

@@ -1,0 +1,6 @@
+C:\CS294-Repos\0206\MathEngine\bin\Debug\MathEngine.dll
+C:\CS294-Repos\0206\MathEngine\bin\Debug\MathEngine.pdb
+C:\CS294-Repos\0206\MathEngine\obj\Debug\MathEngine.csprojResolveAssemblyReference.cache
+C:\CS294-Repos\0206\MathEngine\obj\Debug\MathEngine.csproj.CoreCompileInputs.cache
+C:\CS294-Repos\0206\MathEngine\obj\Debug\MathEngine.dll
+C:\CS294-Repos\0206\MathEngine\obj\Debug\MathEngine.pdb

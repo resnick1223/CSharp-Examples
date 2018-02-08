@@ -1,0 +1,16 @@
+D:\Dropbox\My Data\我的桌面\Party Calculator\PartyCalculator\bin\Debug\BirthdayParty (first version).exe.config
+D:\Dropbox\My Data\我的桌面\Party Calculator\PartyCalculator\bin\Debug\BirthdayParty (first version).exe
+D:\Dropbox\My Data\我的桌面\Party Calculator\PartyCalculator\bin\Debug\BirthdayParty (first version).pdb
+D:\Dropbox\My Data\我的桌面\Party Calculator\PartyCalculator\obj\Debug\PartyCalculator.csprojResolveAssemblyReference.cache
+D:\Dropbox\My Data\我的桌面\Party Calculator\PartyCalculator\obj\Debug\BirthdayParty__first_version_.Form1.resources
+D:\Dropbox\My Data\我的桌面\Party Calculator\PartyCalculator\obj\Debug\BirthdayParty__first_version_.Properties.Resources.resources
+D:\Dropbox\My Data\我的桌面\Party Calculator\PartyCalculator\obj\Debug\PartyCalculator.csproj.GenerateResource.Cache
+D:\Dropbox\My Data\我的桌面\Party Calculator\PartyCalculator\obj\Debug\BirthdayParty (first version).exe
+D:\Dropbox\My Data\我的桌面\Party Calculator\PartyCalculator\obj\Debug\BirthdayParty (first version).pdb
+C:\CS292-Repos\Lecture08\Party Calculator\PartyCalculator\obj\Debug\PartyCalculator.csprojResolveAssemblyReference.cache
+C:\CS292-Repos\Lecture08\Party Calculator\PartyCalculator\obj\Debug\BirthdayParty__first_version_.Form1.resources
+C:\CS292-Repos\Lecture08\Party Calculator\PartyCalculator\obj\Debug\BirthdayParty__first_version_.Properties.Resources.resources
+C:\CS292-Repos\Lecture08\Party Calculator\PartyCalculator\obj\Debug\PartyCalculator.csproj.GenerateResource.Cache
+C:\CS292-Repos\Lecture08\Party Calculator\PartyCalculator\obj\Debug\PartyCalculator.csproj.CoreCompileInputs.cache
+C:\CS292-Repos\Lecture08\Party Calculator\PartyCalculator\obj\Debug\BirthdayParty (first version).exe
+C:\CS292-Repos\Lecture08\Party Calculator\PartyCalculator\obj\Debug\BirthdayParty (first version).pdb
