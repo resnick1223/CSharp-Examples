@@ -13,7 +13,25 @@ namespace PokemonRunCore
         private int iv;
         public int cp;
         public int maxHp;
-        public int hp;
+        private int hp;
+
+        public int Hp
+        {
+            get
+            {
+                return this.hp;
+            }
+
+            set
+            {
+                if (value > 300)
+                    this.hp = 300;
+                else if (value < 0)
+                    this.hp = 0;
+                else
+                    this.hp = value;
+            }
+        }
 
         /// <summary>
         /// 寶可夢的建構式
@@ -66,7 +84,7 @@ namespace PokemonRunCore
 
         public void Attack(Pokemon other)
         {
-            other.hp -= 15;
+            other.Hp -= 15;
         }
     }
 }

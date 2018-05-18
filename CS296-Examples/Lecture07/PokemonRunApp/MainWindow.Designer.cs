@@ -102,7 +102,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 34F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(891, 532);
+            this.ClientSize = new System.Drawing.Size(897, 480);
             this.Controls.Add(this.restartButton);
             this.Controls.Add(this.pokemon2HpLabel);
             this.Controls.Add(this.pokemon1HpLabel);

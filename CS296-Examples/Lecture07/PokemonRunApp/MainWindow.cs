@@ -16,6 +16,8 @@ namespace PokemonRunApp
         private Pokemon pokemon1;
         private Pokemon pokemon2;
 
+        public string GymName { get; set; }
+
         public MainWindow()
         {
             InitializeComponent();
@@ -26,12 +28,12 @@ namespace PokemonRunApp
 
         private void Render()
         {
-            pokemon1HpLabel.Text = string.Format("{0}/{1}", pokemon1.hp, pokemon1.maxHp);
-            pokemon2HpLabel.Text = string.Format("{0}/{1}", pokemon2.hp, pokemon2.maxHp);
-            if (pokemon1.hp <= 0 || pokemon2.hp <= 0)
+            pokemon1HpLabel.Text = string.Format("{0}/{1}", pokemon1.Hp, pokemon1.maxHp);
+            pokemon2HpLabel.Text = string.Format("{0}/{1}", pokemon2.Hp, pokemon2.maxHp);
+            if (pokemon1.Hp <= 0 || pokemon2.Hp <= 0)
             {
                 gameTimer.Enabled = false;
-                if (pokemon1.hp > 0)
+                if (pokemon1.Hp > 0)
                     MessageBox.Show("你贏了");
                 else
                     MessageBox.Show("你輸了");
