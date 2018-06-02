@@ -25,6 +25,14 @@ namespace EasyMath
             set => y = value;
         }
 
+        public double Length
+        {
+            get
+            {
+                return Math.Sqrt(x * x + y * y);
+            }
+        }
+
         public Vector()
         {
         }
@@ -34,17 +42,17 @@ namespace EasyMath
             Console.WriteLine("(x, y) = ({0}, {1})", x, y);
         }
 
-        public static Vector Generate(int min, int max)
+        public static Vector Generate(double min, double max)
         {
             Vector v = new Vector();
             if (random == null)
                 random = new Random();
-            v.X = random.Next(min, max);
-            v.Y = random.Next(min, max);
+            v.X = random.NextDouble(min, max);
+            v.Y = random.NextDouble(min, max);
             return v;
         }
 
-        public static Vector[] Generate(int min, int max, int count)
+        public static Vector[] Generate(double min, double max, int count)
         {
             Vector[] vectors = new Vector[count];
             for (int index = 0; index < count; index++)

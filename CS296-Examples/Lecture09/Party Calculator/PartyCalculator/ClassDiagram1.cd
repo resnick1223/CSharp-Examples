@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BirthdayParty__first_version_.BirthdayParty">
+    <Position X="1" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAEACAABAAAAAAQQAAAAAAAAAAAAA=</HashCode>
+      <FileName>BirthdayParty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BirthdayParty__first_version_.DinnerParty">
+    <Position X="4.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAABAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>DinnerParty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BirthdayParty__first_version_.Party">
+    <Position X="2.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAEAAAAAQAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Party.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft JhengHei UI" Size="9" />
+</ClassDiagram>
