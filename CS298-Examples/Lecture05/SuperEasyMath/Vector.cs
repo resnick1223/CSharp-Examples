@@ -8,11 +8,72 @@ namespace SuperEasyMath
 {
     public class Vector
     {
+        #region 欄位
+
         private double x;
         private double y;
 
+        #endregion 欄位
+
+        #region 屬性
+
+        public double X
+        {
+            get
+            {
+                return this.x;
+            }
+
+            set
+            {
+                if (value > 200)
+                {
+                    this.x = 200;
+                }
+                else if (value < -200)
+                {
+                    this.x = -200;
+                }
+                else
+                {
+                    this.x = value;
+                }
+            }
+        }
+
+        public double Y
+        {
+            get { return this.y; }
+
+            set
+            {
+                if (value > 200)
+                {
+                    this.y = 200;
+                }
+                else if (value < -200)
+                {
+                    this.y = -200;
+                }
+                else
+                {
+                    this.y = value;
+                }
+            }
+        }
+
+        public double Length
+        {
+            get
+            {
+                return Math.Sqrt(this.x * this.x + this.y * this.y);
+            }
+        }
+
+        #endregion 屬性
 
         #region 建構式
+
         /// <summary>
         /// 建構式，輸入兩個參數 範圍是100~200之間
         /// </summary>
@@ -20,8 +81,8 @@ namespace SuperEasyMath
         /// <param name="y">y 分量</param>
         public Vector(double x, double y)
         {
-            this.SetX(x);
-            this.SetY(y);
+            this.X = x;
+            this.Y = y;
         }
 
         /// <summary>
@@ -30,7 +91,6 @@ namespace SuperEasyMath
         /// <param name="value"></param>
         public Vector(double value) : this(value, value)
         {
-
         }
 
         /// <summary>
@@ -40,90 +100,38 @@ namespace SuperEasyMath
         {
         }
 
-
-
-        #endregion
-
-        #region x, y的 Getter, Setter
-        public void SetX(double x)
-        {
-            if (x > 200)
-            {
-                this.x = 200;
-            }
-            else if (x < -200)
-            {
-                this.x = -200;
-            }
-            else
-            {
-                this.x = x;
-            }
-        }
-
-        public double GetX()
-        {
-            return this.x;
-        }
-
-        public void SetY(double y)
-        {
-            if (y > 200)
-            {
-                this.y = 200;
-            }
-            else if (y < -200)
-            {
-                this.y = -200;
-            }
-            else
-            {
-                this.y = y;
-            }
-        }
-
-        public double GetY()
-        {
-            return this.y;
-        }
-        #endregion
+        #endregion 建構式
 
         #region 縮放方法
 
         #region 縮放x方向
+
         public void ScaleX(double factor)
         {
-            this.SetX(this.x * factor);
+            this.X *= factor;
         }
-        #endregion
+
+        #endregion 縮放x方向
 
         #region 縮放y方向
+
         public void ScaleY(double factor)
         {
-            this.SetY(this.y * factor);
+            this.Y *= factor;
         }
-        #endregion
+
+        #endregion 縮放y方向
 
         #region 給定兩個方向的縮放倍率
+
         public void Scale(double factorX, double factorY)
         {
             this.ScaleX(factorX);
             this.ScaleY(factorY);
         }
 
-        #endregion
+        #endregion 給定兩個方向的縮放倍率
 
-        #endregion
-
-        #region 向量長度計算
-
-        public double GetLength()
-        {
-            return Math.Sqrt(this.x * this.x + this.y * this.y);
-        }
-
-        #endregion
-
-
+        #endregion 縮放方法
     }
 }
