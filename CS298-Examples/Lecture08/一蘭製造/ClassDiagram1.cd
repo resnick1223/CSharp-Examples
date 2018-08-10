@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="一蘭製造.一蘭拉麵">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAQGAAAAACAAAAE=</HashCode>
+      <FileName>一蘭拉麵店.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="一蘭製造.拉麵訂單">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAACAAAAAggABAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>拉麵訂單.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="一蘭製造.一蘭台灣分店">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>一蘭台灣分店.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft JhengHei UI" Size="9" />
+</ClassDiagram>
