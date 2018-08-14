@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace SuperEasyMath
 {
-    public class Vector
+    public class Vector : IComparable
     {
         #region 欄位
 
         private double x;
         private double y;
+        private static Random random;
+        public static string SortOption;
+        public static string OrderOption;
 
         #endregion 欄位
 
@@ -67,6 +70,14 @@ namespace SuperEasyMath
             get
             {
                 return Math.Sqrt(this.x * this.x + this.y * this.y);
+            }
+        }
+
+        public int OrderFactor
+        {
+            get
+            {
+                return OrderOption == "desc" ? -1 : 1;
             }
         }
 
@@ -133,5 +144,69 @@ namespace SuperEasyMath
         #endregion 給定兩個方向的縮放倍率
 
         #endregion 縮放方法
+
+        public override string ToString()
+        {
+            return string.Format("(x, y) =  ({0}, {1}) Length = {2}"
+                , x, y, Length);
+        }
+
+        public static Vector Generate()
+        {
+            if (Vector.random == null)
+                Vector.random = new Random();
+
+            double x = random.Next(-200, 201);
+            double y = random.Next(-200, 201);
+            return new Vector(x, y);
+        }
+
+        public static Vector[] Generate(int count)
+        {
+            Vector[] Vectors = new Vector[count];
+            for (int index = 0; index < count; index++)
+                Vectors[index] = Vector.Generate();
+
+            return Vectors;
+        }
+
+        public static void WriteLine(Vector[] Vectors)
+        {
+            foreach (Vector Vector in Vectors)
+                Console.WriteLine(Vector);
+        }
+
+        public int Compare(double a, double b)
+        {
+            if (a > b)
+                return 1;
+            else if (a == b)
+                return 0;
+            else
+                return -1;
+        }
+
+        public int CompareTo(object obj)
+        {
+            if (obj is Vector)
+            {
+                Vector other = obj as Vector;
+                switch (SortOption)
+                {
+                    case "x":
+                        return Compare(this.x, other.x) * OrderFactor;
+
+                    case "y":
+                        return Compare(this.y, other.y) * OrderFactor;
+
+                    default:
+                        return Compare(this.Length, other.Length) * OrderFactor;
+                }
+            }
+            else
+            {
+                return 0;
+            }
+        }
     }
 }
