@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PokemonRunCore
 {
-    public class Pokemon
+    public class Pokemon : IComparable
     {
         #region 欄位
 
@@ -125,6 +125,24 @@ namespace PokemonRunCore
         {
             foreach (Pokemon pokemon in pokemons)
                 Console.WriteLine(pokemon);
+        }
+
+        public int CompareTo(object obj)
+        {
+            if (obj is Pokemon)
+            {
+                Pokemon other = obj as Pokemon;
+                if (this.hp > other.hp)
+                    return -1;
+                else if (this.hp == other.hp)
+                    return 0;
+                else
+                    return 1;
+            }
+            else
+            {
+                return 0;
+            }
         }
     }
 }
