@@ -18,7 +18,16 @@ namespace PokemonLibrary
             set => hp = value > 0 ? value : 0;
         }
 
-        private int height;
-        private int weight;
+        protected int height;
+        protected int weight;
+
+        protected IAttackBehavior attackBehavior;
+
+        public void Attack(Character character)
+        {
+            if (attackBehavior == null)
+                attackBehavior = new NonAttackBehavior();
+            attackBehavior.Attack(character);
+        }
     }
 }

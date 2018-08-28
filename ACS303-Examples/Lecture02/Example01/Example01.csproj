@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3612ABE1-F3D7-40C2-AF1F-7389E53A21CC}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PokemonLibrary</RootNamespace>
-    <AssemblyName>PokemonLibrary</AssemblyName>
+    <ProjectGuid>{4B42CD34-A5D7-4729-95F5-332E0EBCA009}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Example01</RootNamespace>
+    <AssemblyName>Example01</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,26 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bulbasaur.cs" />
-    <Compile Include="Character.cs" />
-    <Compile Include="Charmander.cs" />
-    <Compile Include="Charmeleon.cs" />
-    <Compile Include="IAttackBehavior.cs" />
-    <Compile Include="Ivysaur.cs" />
-    <Compile Include="NonAttackBehavior.cs" />
-    <Compile Include="Pokemon.cs" />
-    <Compile Include="PokemonFactory.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="強力鞭打.cs" />
-    <Compile Include="草系攻擊法.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Lecture01\EasyMath\EasyMath.csproj">
-      <Project>{cdb5418f-f61d-4be3-94dd-149eb26445a8}</Project>
-      <Name>EasyMath</Name>
+    <ProjectReference Include="..\PokemonLibrary\PokemonLibrary.csproj">
+      <Project>{3612abe1-f3d7-40c2-af1f-7389e53a21cc}</Project>
+      <Name>PokemonLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

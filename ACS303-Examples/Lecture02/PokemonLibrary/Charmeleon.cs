@@ -14,17 +14,11 @@ namespace PokemonLibrary
             {
                 if (value < 0)
                     hp = 0;
-                else if (value > 300)
-                    hp = 300;
+                else if (value > 550)
+                    hp = 550;
                 else
                     hp = value;
             }
-        }
-
-        public override void Attack(Pokemon other)
-        {
-            Console.WriteLine("小火龍發動攻擊");
-            other.Hp -= 5;
         }
     }
 }

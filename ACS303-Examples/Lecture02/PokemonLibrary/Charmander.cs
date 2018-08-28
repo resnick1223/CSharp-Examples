@@ -20,11 +20,5 @@ namespace PokemonLibrary
                     hp = value;
             }
         }
-
-        public override void Attack(Pokemon other)
-        {
-            Console.WriteLine("小火龍發動攻擊");
-            other.Hp -= 5;
-        }
     }
 }

@@ -8,12 +8,6 @@ namespace PokemonLibrary
 {
     public class Bulbasaur : Pokemon
     {
-        public override void Attack(Pokemon other)
-        {
-            Console.WriteLine("妙蛙種子發動攻擊");
-            other.Hp -= 6;
-        }
-
         public override int Hp
         {
             get => base.Hp;
