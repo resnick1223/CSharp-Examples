@@ -178,12 +178,14 @@ namespace SuperEasyMath
 
         public int Compare(double a, double b)
         {
+            int result = 1;
             if (a > b)
-                return 1;
+                result = 1;
             else if (a == b)
-                return 0;
+                result = 0;
             else
-                return -1;
+                result = -1;
+            return result * OrderFactor;
         }
 
         public int CompareTo(object obj)
@@ -194,13 +196,13 @@ namespace SuperEasyMath
                 switch (SortOption)
                 {
                     case "x":
-                        return Compare(this.x, other.x) * OrderFactor;
+                        return Compare(this.x, other.x);
 
                     case "y":
-                        return Compare(this.y, other.y) * OrderFactor;
+                        return Compare(this.y, other.y);
 
                     default:
-                        return Compare(this.Length, other.Length) * OrderFactor;
+                        return Compare(this.Length, other.Length);
                 }
             }
             else
