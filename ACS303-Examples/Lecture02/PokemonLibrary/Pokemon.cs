@@ -30,7 +30,5 @@ namespace PokemonLibrary
                     hp = value;
             }
         }
-
-        public abstract void Attack(Pokemon other);
     }
 }

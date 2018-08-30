@@ -21,9 +21,9 @@ namespace PokemonLibrary
         protected int height;
         protected int weight;
 
-        protected IAttackBehavior attackBehavior;
+        public IAttackBehavior attackBehavior;
 
-        public void Attack(Character character)
+        public virtual void Attack(Character character)
         {
             if (attackBehavior == null)
                 attackBehavior = new NonAttackBehavior();

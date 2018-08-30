@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PokemonLibrary
 {
-    public abstract class 草系攻擊法 : 寶可夢攻擊法
+    public class 寶可夢進化行為 : 寶可夢行為
     {
     }
 }
