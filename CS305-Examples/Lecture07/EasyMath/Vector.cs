@@ -11,12 +11,28 @@ namespace EasyMath
         public double x;
         public double y;
 
+        private static int count;
+
+        public static int Count
+        {
+            set
+            {
+                Vector.count = value >= 0 ? value : 0;
+            }
+
+            get
+            {
+                return Vector.count;
+            }
+        }
+
         public double theta;
 
         /// <summary>
         /// 預設建構式，產生一個零向量
         /// </summary>
         public Vector()
+            : this(0, 0)
         {
         }
 
@@ -27,6 +43,7 @@ namespace EasyMath
         /// <param name="y">y分量</param>
         public Vector(double x, double y)
         {
+            Vector.count++;
             this.x = x;
             this.y = y;
         }
@@ -36,9 +53,8 @@ namespace EasyMath
         /// </summary>
         /// <param name="value"></param>
         public Vector(double value)
+            : this(value, value)
         {
-            this.x = value;
-            this.y = value;
         }
 
         /// <summary>
@@ -48,6 +64,14 @@ namespace EasyMath
         public double GetLength()
         {
             return Math.Sqrt(x * x + y * y);
+        }
+
+        public double Length
+        {
+            get
+            {
+                return Math.Sqrt(x * x + y * y);
+            }
         }
 
         public double GetTheta()
@@ -60,6 +84,21 @@ namespace EasyMath
                 return x > 0 ? 0 : 180;
             else
                 return Math.Atan(y / x) * 180.0 / Math.PI;
+        }
+
+        public double Theta
+        {
+            get
+            {
+                if (x == 0.0 && y == 0.0)
+                    return 0.0;
+                else if (x == 0.0)
+                    return y > 0 ? 90 : 270;
+                else if (y == 0.0)
+                    return x > 0 ? 0 : 180;
+                else
+                    return Math.Atan(y / x) * 180.0 / Math.PI;
+            }
         }
 
         public void ScaleX(double factor)
@@ -95,7 +134,7 @@ namespace EasyMath
         public void Print()
         {
             Console.WriteLine("(x, y) = ({0}, {1}) Length = {2} Theta = {3}"
-                , x, y, GetLength(), GetTheta());
+                , x, y, Length, Theta);
         }
     }
 }
