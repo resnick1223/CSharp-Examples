@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace EasyMath
 {
-    public class Vector
+    public class Vector : IComparable
     {
-        public double x;
-        public double y;
+        public double X { get; set; }
+        public double Y { get; set; }
+
+        private static Random random;
 
         private static int count;
 
@@ -44,8 +46,8 @@ namespace EasyMath
         public Vector(double x, double y)
         {
             Vector.count++;
-            this.x = x;
-            this.y = y;
+            this.X = x;
+            this.Y = y;
         }
 
         /// <summary>
@@ -61,54 +63,38 @@ namespace EasyMath
         /// 取得向量長度
         /// </summary>
         /// <returns>回傳值為向量長度</returns>
-        public double GetLength()
-        {
-            return Math.Sqrt(x * x + y * y);
-        }
 
         public double Length
         {
             get
             {
-                return Math.Sqrt(x * x + y * y);
+                return Math.Sqrt(X * X + Y * Y);
             }
-        }
-
-        public double GetTheta()
-        {
-            if (x == 0.0 && y == 0.0)
-                return 0.0;
-            else if (x == 0.0)
-                return y > 0 ? 90 : 270;
-            else if (y == 0.0)
-                return x > 0 ? 0 : 180;
-            else
-                return Math.Atan(y / x) * 180.0 / Math.PI;
         }
 
         public double Theta
         {
             get
             {
-                if (x == 0.0 && y == 0.0)
+                if (X == 0.0 && Y == 0.0)
                     return 0.0;
-                else if (x == 0.0)
-                    return y > 0 ? 90 : 270;
-                else if (y == 0.0)
-                    return x > 0 ? 0 : 180;
+                else if (X == 0.0)
+                    return Y > 0 ? 90 : 270;
+                else if (Y == 0.0)
+                    return X > 0 ? 0 : 180;
                 else
-                    return Math.Atan(y / x) * 180.0 / Math.PI;
+                    return Math.Atan(Y / X) * 180.0 / Math.PI;
             }
         }
 
         public void ScaleX(double factor)
         {
-            x *= factor;
+            X *= factor;
         }
 
         public void ScaleY(double factor)
         {
-            y *= factor;
+            Y *= factor;
         }
 
         public void Scale(double factorX, double factorY)
@@ -123,18 +109,52 @@ namespace EasyMath
             ScaleY(factor);
         }
 
-        public void SetX(double x)
-        {
-            this.x = x;
-        }
-
         /// <summary>
         /// 列印向量的基本資訊
         /// </summary>
         public void Print()
         {
             Console.WriteLine("(x, y) = ({0}, {1}) Length = {2} Theta = {3}"
-                , x, y, Length, Theta);
+                , X, Y, Length, Theta);
+        }
+
+        public static Vector Generate(double min, double max)
+        {
+            //Random random = new Random();
+            if (Vector.random == null)
+                Vector.random = new Random();
+            double x = random.NextDouble(min, max);
+            double y = random.NextDouble(min, max);
+
+            return new Vector(x, y);
+        }
+
+        public static Vector[] Generate(int count, double min, double max)
+        {
+            Vector[] vectors = new Vector[count];
+            for (int index = 0; index < vectors.Length; index++)
+            {
+                vectors[index] = Vector.Generate(min, max);
+            }
+
+            return vectors;
+        }
+
+        public static void WriteLine(Vector[] vectors)
+        {
+            foreach (Vector vector in vectors)
+                vector.Print();
+        }
+
+        public int CompareTo(object obj)
+        {
+            Vector other = obj as Vector;
+            if (this.Y > other.Y)
+                return 1;
+            else if (this.Y == other.Y)
+                return 0;
+            else
+                return -1;
         }
     }
 }
