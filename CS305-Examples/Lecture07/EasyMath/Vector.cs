@@ -13,6 +13,8 @@ namespace EasyMath
 
         private static Random random;
 
+        public static SortBy SortBy { get; set; }
+
         private static int count;
 
         public static int Count
@@ -149,9 +151,24 @@ namespace EasyMath
         public int CompareTo(object obj)
         {
             Vector other = obj as Vector;
-            if (this.Y > other.Y)
+            switch (SortBy)
+            {
+                case SortBy.X:
+                    return Compare(this.X, other.X);
+
+                case SortBy.Y:
+                    return Compare(this.Y, other.Y);
+
+                default:
+                    return Compare(this.Length, other.Length);
+            }
+        }
+
+        private int Compare(double x, double y)
+        {
+            if (x > y)
                 return 1;
-            else if (this.Y == other.Y)
+            else if (x == y)
                 return 0;
             else
                 return -1;

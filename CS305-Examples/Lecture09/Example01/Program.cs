@@ -14,6 +14,7 @@ namespace Example01
             Vector[] vectors = Vector.Generate(10, -20, 30);
             Vector.WriteLine(vectors);
 
+            Vector.SortBy = SortBy.X;
             Array.Sort(vectors);
             Console.WriteLine("排序後");
             Vector.WriteLine(vectors);
