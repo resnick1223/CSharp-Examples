@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace PokemonLibrary
 {
-    public class Pokemon
+    public class PokemonMaster
     {
         public string name;
-        public int hp;
         public int powerUpCandy;
+        public int evolveCandy;
     }
 }
