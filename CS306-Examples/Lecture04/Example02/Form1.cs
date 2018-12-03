@@ -23,19 +23,15 @@ namespace Example02
 
         private void PlayButton_Click(object sender, EventArgs e)
         {
-            this.isPlaying = !this.isPlaying;
-            NumberTimer.Enabled = this.isPlaying;
-            if (this.isPlaying)
-                PlayButton.Text = "Stop";
-            else
-                PlayButton.Text = "Play";
+            NumberTimer.Enabled = !NumberTimer.Enabled;
+            this.isPlaying = NumberTimer.Enabled;
+            PlayButton.Text = this.isPlaying ? "Stop" : "Play";
         }
 
         private void NumberTimer_Tick(object sender, EventArgs e)
         {
             int currentNumber = int.Parse(NumberLabel.Text);
-            currentNumber++;
-            NumberLabel.Text = currentNumber.ToString();
+            NumberLabel.Text = (++currentNumber).ToString();
         }
     }
 }
