@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace EasyMath
 {
-    public class Vector : IDisposable
+    public class Vector : IDisposable, IComparable
+    
     {
-        public double x;
-        public double y;
-        public string name;
+        public double X { get; set; }
+        public double Y { get; set; }
+        public string Name { get; set; }
 
-        public static int Count;
+        private static Random random;
+
+        public static int Count { get; set; }
 
         public Vector()
         {
@@ -32,7 +35,7 @@ namespace EasyMath
         /// <param name="factor">縮放倍數</param>
         public void ScaleX(double factor)
         {
-            this.x *= factor;
+            this.X *= factor;
         }
 
         /// <summary>
@@ -41,7 +44,7 @@ namespace EasyMath
         /// <param name="factor">縮放倍數</param>
         public void ScaleY(double factor)
         {
-            this.y *= factor;
+            this.Y *= factor;
         }
 
         /// <summary>
@@ -57,15 +60,61 @@ namespace EasyMath
 
         #endregion 縮放方法
 
-        public double GetLength()
+        public double Length
         {
-            return Math.Sqrt(this.x * this.x + this.y * this.y);
+            get
+            {
+                return Math.Sqrt(this.X * this.X + this.Y * this.Y);
+            }
         }
+        
 
         public void WriteLine()
         {
             Console.WriteLine("{2}.x = {0}, {2}.y = {1}"
-                , this.x, this.y, this.name == null ? "vector" : this.name);
+                , this.X, this.Y, this.Name == null ? "vector" : this.Name);
+        }
+
+        public static Vector Generate(double min, double max)
+        {
+            if (Vector.random == null)
+                Vector.random = new Random();
+
+            double x = random.NextDouble(min, max);
+            double y = random.NextDouble(min, max);
+
+            return new Vector() { X = x, Y = y };
+        }
+
+        public static Vector[] Generate(int count, double min, double max)
+        {
+            Vector[] vectors = new Vector[count];
+            for (int index = 0; index < count; index++)
+                vectors[index] = Vector.Generate(min, max);
+
+            return vectors;
+        }
+
+        public static void WriteLine(Vector v)
+        {
+            Console.WriteLine("(x, y) = ({0}, {1}) Length = {2}", v.X, v.Y, v.Length);
+        }
+
+        public static void WriteLine(Vector[] vectors)
+        {
+            foreach (var v in vectors)
+                Vector.WriteLine(v);
+        }
+
+        public int CompareTo(object obj)
+        {
+            Vector other = obj as Vector;
+            if (this.X > other.X)
+                return 1;
+            else if (this.X == other.X)
+                return 0;
+            else
+                return -1;
         }
     }
 }

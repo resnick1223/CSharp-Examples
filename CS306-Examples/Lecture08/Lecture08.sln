@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMath", "..\Lecture06\EasyMath\EasyMath.csproj", "{FC439BD3-4D7E-414F-8F27-7CD3972C75EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example01", "Example01\Example01.csproj", "{2474FA0D-4085-4151-8B7E-48A27FE70E13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC439BD3-4D7E-414F-8F27-7CD3972C75EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC439BD3-4D7E-414F-8F27-7CD3972C75EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC439BD3-4D7E-414F-8F27-7CD3972C75EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC439BD3-4D7E-414F-8F27-7CD3972C75EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2474FA0D-4085-4151-8B7E-48A27FE70E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2474FA0D-4085-4151-8B7E-48A27FE70E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2474FA0D-4085-4151-8B7E-48A27FE70E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2474FA0D-4085-4151-8B7E-48A27FE70E13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A34E681-B3D9-481F-AE19-77A4038C3504}
+	EndGlobalSection
+EndGlobal
