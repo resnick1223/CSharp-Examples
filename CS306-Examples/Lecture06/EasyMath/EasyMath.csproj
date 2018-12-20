@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EnumOrderBy.cs" />
     <Compile Include="RandomExtension.cs" />
     <Compile Include="Vector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

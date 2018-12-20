@@ -15,6 +15,9 @@ namespace EasyMath
 
         private static Random random;
 
+        public static OrderBy OrderBy { get; set; }
+        public static SortOrder SortOrder { get; set; }
+
         public static int Count { get; set; }
 
         public Vector()
@@ -109,12 +112,29 @@ namespace EasyMath
         public int CompareTo(object obj)
         {
             Vector other = obj as Vector;
-            if (this.X > other.X)
-                return 1;
-            else if (this.X == other.X)
-                return 0;
+            switch (Vector.OrderBy)
+            {
+                case OrderBy.X:
+                    return Compare(this.X, other.X);
+                case OrderBy.Y:
+                    return Compare(this.Y, other.Y);
+                default:
+                    return Compare(this.Length, other.Length);
+            }
+            
+        }
+
+        public int Compare(double a, double b)
+        {
+            int result = 0;
+            if (a > b)
+                result = 1;
+            else if (a == b)
+                result = 0;
             else
-                return -1;
+                result = -1;
+
+            return result * (int)SortOrder;
         }
     }
 }

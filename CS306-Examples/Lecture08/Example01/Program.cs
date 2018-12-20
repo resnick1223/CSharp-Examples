@@ -16,11 +16,14 @@ namespace Example01
             Console.WriteLine("排序前");
 
             Vector.WriteLine(vectors);
+
+            Vector.OrderBy = OrderBy.Length;
+            Vector.SortOrder = SortOrder.ASC;
             
             Array.Sort(vectors);
 
             
-
+            
             Console.WriteLine("排序後");
 
             Vector.WriteLine(vectors);
