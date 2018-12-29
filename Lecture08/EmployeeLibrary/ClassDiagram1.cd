@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EmployeeLibrary.員工">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQAAAAEAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>員工.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeLibrary.空服員">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>空服員.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeLibrary.機師">
+    <Position X="2.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>機師.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeLibrary.航空公司員工">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>航空公司員工.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeLibrary.機組人員">
+    <Position X="1.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>機組人員.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeLibrary.地勤人員">
+    <Position X="5.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>地勤人員.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeLibrary.櫃台人員">
+    <Position X="4.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>櫃台人員.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeLibrary.安檢人員">
+    <Position X="6.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>安檢人員.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeLibrary.學校員工">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>學校員工.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeLibrary.公務員體系員工">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>公務員體系員工.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeLibrary.約聘人員">
+    <Position X="9.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>約聘人員.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeLibrary.臨時工">
+    <Position X="11.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>臨時工.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft JhengHei UI" Size="9" />
+</ClassDiagram>
