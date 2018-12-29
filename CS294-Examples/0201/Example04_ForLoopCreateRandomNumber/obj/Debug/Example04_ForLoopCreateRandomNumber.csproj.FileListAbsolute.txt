@@ -1,7 +1,0 @@
-C:\CS294-Repos\0201\Example04_ForLoopCreateRandomNumber\bin\Debug\Example04_ForLoopCreateRandomNumber.exe.config
-C:\CS294-Repos\0201\Example04_ForLoopCreateRandomNumber\bin\Debug\Example04_ForLoopCreateRandomNumber.exe
-C:\CS294-Repos\0201\Example04_ForLoopCreateRandomNumber\bin\Debug\Example04_ForLoopCreateRandomNumber.pdb
-C:\CS294-Repos\0201\Example04_ForLoopCreateRandomNumber\obj\Debug\Example04_ForLoopCreateRandomNumber.csprojResolveAssemblyReference.cache
-C:\CS294-Repos\0201\Example04_ForLoopCreateRandomNumber\obj\Debug\Example04_ForLoopCreateRandomNumber.csproj.CoreCompileInputs.cache
-C:\CS294-Repos\0201\Example04_ForLoopCreateRandomNumber\obj\Debug\Example04_ForLoopCreateRandomNumber.exe
-C:\CS294-Repos\0201\Example04_ForLoopCreateRandomNumber\obj\Debug\Example04_ForLoopCreateRandomNumber.pdb

@@ -1,7 +1,0 @@
-C:\CS292-Repos\Lecture02\Example01\bin\Debug\Example01.exe.config
-C:\CS292-Repos\Lecture02\Example01\bin\Debug\Example01.exe
-C:\CS292-Repos\Lecture02\Example01\bin\Debug\Example01.pdb
-C:\CS292-Repos\Lecture02\Example01\obj\Debug\Example01.csprojResolveAssemblyReference.cache
-C:\CS292-Repos\Lecture02\Example01\obj\Debug\Example01.csproj.CoreCompileInputs.cache
-C:\CS292-Repos\Lecture02\Example01\obj\Debug\Example01.exe
-C:\CS292-Repos\Lecture02\Example01\obj\Debug\Example01.pdb

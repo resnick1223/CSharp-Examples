@@ -1,7 +1,0 @@
-C:\CS292-Repos\Lecture04\WhiteLoopExample\bin\Debug\WhiteLoopExample.exe.config
-C:\CS292-Repos\Lecture04\WhiteLoopExample\bin\Debug\WhiteLoopExample.exe
-C:\CS292-Repos\Lecture04\WhiteLoopExample\bin\Debug\WhiteLoopExample.pdb
-C:\CS292-Repos\Lecture04\WhiteLoopExample\obj\Debug\WhiteLoopExample.csprojResolveAssemblyReference.cache
-C:\CS292-Repos\Lecture04\WhiteLoopExample\obj\Debug\WhiteLoopExample.csproj.CoreCompileInputs.cache
-C:\CS292-Repos\Lecture04\WhiteLoopExample\obj\Debug\WhiteLoopExample.exe
-C:\CS292-Repos\Lecture04\WhiteLoopExample\obj\Debug\WhiteLoopExample.pdb

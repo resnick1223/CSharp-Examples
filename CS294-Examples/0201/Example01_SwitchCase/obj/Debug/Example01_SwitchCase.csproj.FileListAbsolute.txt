@@ -1,7 +1,0 @@
-C:\CS294-Repos\0201\Example01_SwitchCase\bin\Debug\Example01_SwitchCase.exe.config
-C:\CS294-Repos\0201\Example01_SwitchCase\bin\Debug\Example01_SwitchCase.exe
-C:\CS294-Repos\0201\Example01_SwitchCase\bin\Debug\Example01_SwitchCase.pdb
-C:\CS294-Repos\0201\Example01_SwitchCase\obj\Debug\Example01_SwitchCase.csprojResolveAssemblyReference.cache
-C:\CS294-Repos\0201\Example01_SwitchCase\obj\Debug\Example01_SwitchCase.csproj.CoreCompileInputs.cache
-C:\CS294-Repos\0201\Example01_SwitchCase\obj\Debug\Example01_SwitchCase.exe
-C:\CS294-Repos\0201\Example01_SwitchCase\obj\Debug\Example01_SwitchCase.pdb

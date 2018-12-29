@@ -1,6 +1,0 @@
-C:\CS292-Repos\Lecture05\EasyMathLibrary\obj\Debug\EasyMathLibrary.csprojResolveAssemblyReference.cache
-C:\CS292-Repos\Lecture05\EasyMathLibrary\obj\Debug\EasyMathLibrary.csproj.CoreCompileInputs.cache
-C:\CS292-Repos\Lecture05\EasyMathLibrary\bin\Debug\EasyMathLibrary.dll
-C:\CS292-Repos\Lecture05\EasyMathLibrary\bin\Debug\EasyMathLibrary.pdb
-C:\CS292-Repos\Lecture05\EasyMathLibrary\obj\Debug\EasyMathLibrary.dll
-C:\CS292-Repos\Lecture05\EasyMathLibrary\obj\Debug\EasyMathLibrary.pdb

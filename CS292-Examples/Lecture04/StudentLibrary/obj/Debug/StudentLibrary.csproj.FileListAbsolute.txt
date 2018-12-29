@@ -1,8 +1,0 @@
-C:\CS292-Repos\Lecture04\StudentLibrary\bin\Debug\StudentLibrary.dll
-C:\CS292-Repos\Lecture04\StudentLibrary\bin\Debug\StudentLibrary.pdb
-C:\CS292-Repos\Lecture04\StudentLibrary\obj\Debug\StudentLibrary.csprojResolveAssemblyReference.cache
-C:\CS292-Repos\Lecture04\StudentLibrary\obj\Debug\StudentLibrary.csproj.CoreCompileInputs.cache
-C:\CS292-Repos\Lecture04\StudentLibrary\obj\Debug\StudentLibrary.dll
-C:\CS292-Repos\Lecture04\StudentLibrary\obj\Debug\StudentLibrary.pdb
-C:\CS292-Repos\Lecture04\StudentLibrary\bin\Debug\Newtonsoft.Json.dll
-C:\CS292-Repos\Lecture04\StudentLibrary\bin\Debug\Newtonsoft.Json.xml

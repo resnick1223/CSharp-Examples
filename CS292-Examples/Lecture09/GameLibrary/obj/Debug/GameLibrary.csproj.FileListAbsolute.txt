@@ -1,6 +1,0 @@
-C:\CS292-Repos\Lecture09\GameLibrary\bin\Debug\GameLibrary.dll
-C:\CS292-Repos\Lecture09\GameLibrary\bin\Debug\GameLibrary.pdb
-C:\CS292-Repos\Lecture09\GameLibrary\obj\Debug\GameLibrary.csprojResolveAssemblyReference.cache
-C:\CS292-Repos\Lecture09\GameLibrary\obj\Debug\GameLibrary.csproj.CoreCompileInputs.cache
-C:\CS292-Repos\Lecture09\GameLibrary\obj\Debug\GameLibrary.dll
-C:\CS292-Repos\Lecture09\GameLibrary\obj\Debug\GameLibrary.pdb
