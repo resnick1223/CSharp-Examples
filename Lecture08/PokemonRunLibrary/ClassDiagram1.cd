@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PokemonRunLibrary.寶可夢">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAQAAAAAA=</HashCode>
+      <FileName>寶可夢.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonRunLibrary.妙蛙種子">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>妙蛙種子.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonRunLibrary.妙蛙草">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>妙蛙草.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonRunLibrary.妙蛙花">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>妙蛙花.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonRunLibrary.小火龍">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>小火龍.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonRunLibrary.火恐龍">
+    <Position X="3.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>火恐龍.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonRunLibrary.噴火龍">
+    <Position X="3.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>噴火龍.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft JhengHei UI" Size="9" />
+</ClassDiagram>
