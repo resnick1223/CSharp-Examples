@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternExample", "ObserverPatternExample\ObserverPatternExample.csproj", "{5CE7EC4E-0E27-405D-8FBD-E02CDEBFC521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternEventExample", "ObserverPatternEventExample\ObserverPatternEventExample.csproj", "{8F957F1F-0F06-434B-BE29-FD53F5B62697}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CE7EC4E-0E27-405D-8FBD-E02CDEBFC521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE7EC4E-0E27-405D-8FBD-E02CDEBFC521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE7EC4E-0E27-405D-8FBD-E02CDEBFC521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE7EC4E-0E27-405D-8FBD-E02CDEBFC521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F957F1F-0F06-434B-BE29-FD53F5B62697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F957F1F-0F06-434B-BE29-FD53F5B62697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F957F1F-0F06-434B-BE29-FD53F5B62697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F957F1F-0F06-434B-BE29-FD53F5B62697}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05F0F847-05C4-4A3B-BB51-4A2B7C65460F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{B812C168-B45C-4185-9E72-E899F9E6BF2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{5EB31FD2-1448-439E-8265-1840EB25E605}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B812C168-B45C-4185-9E72-E899F9E6BF2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B812C168-B45C-4185-9E72-E899F9E6BF2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B812C168-B45C-4185-9E72-E899F9E6BF2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B812C168-B45C-4185-9E72-E899F9E6BF2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB31FD2-1448-439E-8265-1840EB25E605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB31FD2-1448-439E-8265-1840EB25E605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB31FD2-1448-439E-8265-1840EB25E605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB31FD2-1448-439E-8265-1840EB25E605}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E8B695E-94EC-4FCA-9AD5-F4B5A67067ED}
+	EndGlobalSection
+EndGlobal
