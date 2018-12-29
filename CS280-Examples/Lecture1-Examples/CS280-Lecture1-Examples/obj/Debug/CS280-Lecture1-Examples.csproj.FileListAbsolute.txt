@@ -1,6 +1,0 @@
-C:\CSharp-Projects\CS280-Lecture1-Examples\CS280-Lecture1-Examples\bin\Debug\CS280-Lecture1-Examples.pdb
-C:\CSharp-Projects\CS280-Lecture1-Examples\CS280-Lecture1-Examples\obj\Debug\CS280-Lecture1-Examples.csprojResolveAssemblyReference.cache
-C:\CSharp-Projects\CS280-Lecture1-Examples\CS280-Lecture1-Examples\obj\Debug\CS280-Lecture1-Examples.pdb
-C:\CSharp-Projects\CS280-Lecture1-Examples\CS280-Lecture1-Examples\bin\Debug\CS280-Lecture1-Examples.dll.config
-C:\CSharp-Projects\CS280-Lecture1-Examples\CS280-Lecture1-Examples\bin\Debug\CS280-Lecture1-Examples.dll
-C:\CSharp-Projects\CS280-Lecture1-Examples\CS280-Lecture1-Examples\obj\Debug\CS280-Lecture1-Examples.dll

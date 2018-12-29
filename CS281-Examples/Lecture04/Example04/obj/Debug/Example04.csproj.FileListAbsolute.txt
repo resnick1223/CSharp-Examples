@@ -1,5 +1,0 @@
-C:\CS281-Examples\Lecture04\Example04\bin\Debug\Example04.exe.config
-C:\CS281-Examples\Lecture04\Example04\bin\Debug\Example04.exe
-C:\CS281-Examples\Lecture04\Example04\bin\Debug\Example04.pdb
-C:\CS281-Examples\Lecture04\Example04\obj\Debug\Example04.exe
-C:\CS281-Examples\Lecture04\Example04\obj\Debug\Example04.pdb

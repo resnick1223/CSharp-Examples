@@ -1,7 +1,0 @@
-C:\CS281-Examples\Lecture08\PokemonLibrary\bin\Debug\PokemonLibrary.dll
-C:\CS281-Examples\Lecture08\PokemonLibrary\bin\Debug\PokemonLibrary.pdb
-C:\CS281-Examples\Lecture08\PokemonLibrary\bin\Debug\MyToolBox.dll
-C:\CS281-Examples\Lecture08\PokemonLibrary\bin\Debug\MyToolBox.pdb
-C:\CS281-Examples\Lecture08\PokemonLibrary\obj\Debug\PokemonLibrary.csprojResolveAssemblyReference.cache
-C:\CS281-Examples\Lecture08\PokemonLibrary\obj\Debug\PokemonLibrary.dll
-C:\CS281-Examples\Lecture08\PokemonLibrary\obj\Debug\PokemonLibrary.pdb

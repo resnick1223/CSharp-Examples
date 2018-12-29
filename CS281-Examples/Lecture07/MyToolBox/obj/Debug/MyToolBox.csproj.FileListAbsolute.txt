@@ -1,5 +1,0 @@
-C:\CS281-Examples\Lecture06\MyToolBox\bin\Debug\MyToolBox.dll
-C:\CS281-Examples\Lecture06\MyToolBox\bin\Debug\MyToolBox.pdb
-C:\CS281-Examples\Lecture06\MyToolBox\obj\Debug\MyToolBox.dll
-C:\CS281-Examples\Lecture06\MyToolBox\obj\Debug\MyToolBox.pdb
-C:\CS281-Examples\Lecture06\MyToolBox\obj\Debug\MyToolBox.csprojResolveAssemblyReference.cache

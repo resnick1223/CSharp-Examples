@@ -1,6 +1,0 @@
-C:\CS281-Examples\Lecture04\Example03\bin\Debug\Example03.exe.config
-C:\CS281-Examples\Lecture04\Example03\bin\Debug\Example03.exe
-C:\CS281-Examples\Lecture04\Example03\bin\Debug\Example03.pdb
-C:\CS281-Examples\Lecture04\Example03\obj\Debug\Example03.csprojResolveAssemblyReference.cache
-C:\CS281-Examples\Lecture04\Example03\obj\Debug\Example03.exe
-C:\CS281-Examples\Lecture04\Example03\obj\Debug\Example03.pdb
