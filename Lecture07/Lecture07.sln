@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animation2D", "Animation2D\Animation2D.csproj", "{95571977-224D-4EBD-9791-BA94F86C0489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example01", "Example01\Example01.csproj", "{FB3AB1BA-25C7-41DB-952F-95782DB8A52B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example02", "Example02\Example02.csproj", "{45EB551D-7D21-4228-93A5-DF0D0801CF5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95571977-224D-4EBD-9791-BA94F86C0489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95571977-224D-4EBD-9791-BA94F86C0489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95571977-224D-4EBD-9791-BA94F86C0489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95571977-224D-4EBD-9791-BA94F86C0489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB3AB1BA-25C7-41DB-952F-95782DB8A52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB3AB1BA-25C7-41DB-952F-95782DB8A52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB3AB1BA-25C7-41DB-952F-95782DB8A52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB3AB1BA-25C7-41DB-952F-95782DB8A52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45EB551D-7D21-4228-93A5-DF0D0801CF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45EB551D-7D21-4228-93A5-DF0D0801CF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45EB551D-7D21-4228-93A5-DF0D0801CF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45EB551D-7D21-4228-93A5-DF0D0801CF5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6451864E-2750-47C5-BB84-733E63E87022}
+	EndGlobalSection
+EndGlobal
