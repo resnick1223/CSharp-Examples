@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeLibrary", "EmployeeLibrary\EmployeeLibrary.csproj", "{E1DD2B06-FBCE-40DF-9E1C-597066119C66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{0B353E8B-152F-4594-9A9F-18EC17D85045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyCalculator", "Party Calculator\PartyCalculator\PartyCalculator.csproj", "{3785E823-86D5-4007-872B-9CA2DAF71076}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1DD2B06-FBCE-40DF-9E1C-597066119C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1DD2B06-FBCE-40DF-9E1C-597066119C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1DD2B06-FBCE-40DF-9E1C-597066119C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1DD2B06-FBCE-40DF-9E1C-597066119C66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B353E8B-152F-4594-9A9F-18EC17D85045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B353E8B-152F-4594-9A9F-18EC17D85045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B353E8B-152F-4594-9A9F-18EC17D85045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B353E8B-152F-4594-9A9F-18EC17D85045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3785E823-86D5-4007-872B-9CA2DAF71076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3785E823-86D5-4007-872B-9CA2DAF71076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3785E823-86D5-4007-872B-9CA2DAF71076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3785E823-86D5-4007-872B-9CA2DAF71076}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
