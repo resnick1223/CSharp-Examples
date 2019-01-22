@@ -8,6 +8,6 @@ namespace EasyMath
 {
     public enum SortBy
     {
-        X, Y, Length
+        X, Y, Z, Length
     }
 }

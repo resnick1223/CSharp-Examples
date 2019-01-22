@@ -8,6 +8,14 @@ namespace PokemonLibrary
 {
     public class 妙蛙種子 : 寶可夢
     {
+        public int 水系能力值
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
+
         public override int CompareTo(寶可夢 other)
         {
             throw new NotImplementedException();

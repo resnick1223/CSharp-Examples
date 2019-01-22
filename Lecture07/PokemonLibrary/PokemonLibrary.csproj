@@ -46,6 +46,7 @@
     <Compile Include="妙蛙草.cs" />
     <Compile Include="寶可夢.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="寶可夢工廠.cs" />
     <Compile Include="小火龍.cs" />
     <Compile Include="超妙蛙花.cs" />
   </ItemGroup>
