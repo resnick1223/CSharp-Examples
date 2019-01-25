@@ -19,5 +19,31 @@ namespace PokemonLibrary
         public abstract int CompareTo(寶可夢 other);
 
         public abstract void 攻擊(寶可夢 另一隻);
+
+        protected 具有飛行能力的 裝備;
+
+        public void 飛行()
+        {
+            if (裝備 == null)
+            {
+                Console.WriteLine("此角色尚未裝備具有飛行能力的道具");
+            }
+            else
+            {
+                裝備.飛行();
+            }
+        }
+
+        public void 裝上裝備(object 裝備物件)
+        {
+            if (裝備物件 is 具有飛行能力的)
+            {
+                裝備 = 裝備物件 as 具有飛行能力的;
+            }
+            else
+            {
+                裝備 = null;
+            }
+        }
     }
 }

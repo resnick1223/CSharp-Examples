@@ -14,5 +14,15 @@ namespace PokemonLibrary
             {
             }
         }
+
+        public override int CompareTo(寶可夢 other)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void 攻擊(寶可夢 另一隻)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

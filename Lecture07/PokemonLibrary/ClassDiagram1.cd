@@ -3,14 +3,14 @@
   <Class Name="PokemonLibrary.妙蛙種子">
     <Position X="2.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAkAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>妙蛙種子.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="PokemonLibrary.寶可夢">
     <Position X="4.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAQAAAAAAAAAgAAAAAAAAAgAQAAIAAA=</HashCode>
+      <HashCode>AAAQABAAAAAAIAQAAAgAAAAAgAAAAAAAAAgAQAAIAAA=</HashCode>
       <FileName>寶可夢.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -18,7 +18,7 @@
   <Class Name="PokemonLibrary.小火龍">
     <Position X="5.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAIAAAAAAAAAAQAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>小火龍.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -43,5 +43,99 @@
       <FileName>超妙蛙花.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="PokemonLibrary.寶可夢道具">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>寶可夢道具.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonLibrary.攻擊用道具">
+    <Position X="5.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>攻擊用道具.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonLibrary.防禦用道具">
+    <Position X="7.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>防禦用道具.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonLibrary.機能類道具">
+    <Position X="9" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>機能類道具.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonLibrary.加血球">
+    <Position X="8" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>加血球.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonLibrary.飛行糖果">
+    <Position X="10" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>飛行糖果.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PokemonLibrary.惡魔果實">
+    <Position X="5.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>惡魔果實.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonLibrary.自然系果實">
+    <Position X="4.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>自然系果實.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonLibrary.超人系果實">
+    <Position X="6.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>超人系果實.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonLibrary.橡膠果實">
+    <Position X="6.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>橡膠果實.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PokemonLibrary.四分五裂果實">
+    <Position X="8" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>四分五裂果實.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PokemonLibrary.飛毯">
+    <Position X="11.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>飛毯.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="PokemonLibrary.具有飛行能力的">
+    <Position X="10.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>具有飛行能力的.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Microsoft JhengHei UI" Size="9" />
 </ClassDiagram>

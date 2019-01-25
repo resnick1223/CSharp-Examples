@@ -4,16 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{769EC141-1CFA-44DD-ADD5-11DEDDF4BB71}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PokemonLibrary</RootNamespace>
-    <AssemblyName>PokemonLibrary</AssemblyName>
+    <ProjectGuid>{85F693C2-FEC9-42A3-8A60-D8A64910FAB4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Example01</RootNamespace>
+    <AssemblyName>Example01</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,30 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="具有飛行能力的.cs" />
-    <Compile Include="加血球.cs" />
-    <Compile Include="四分五裂果實.cs" />
-    <Compile Include="妙蛙種子.cs" />
-    <Compile Include="妙蛙花.cs" />
-    <Compile Include="妙蛙草.cs" />
-    <Compile Include="寶可夢.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="寶可夢工廠.cs" />
-    <Compile Include="寶可夢道具.cs" />
-    <Compile Include="小火龍.cs" />
-    <Compile Include="惡魔果實.cs" />
-    <Compile Include="攻擊用道具.cs" />
-    <Compile Include="機能類道具.cs" />
-    <Compile Include="橡膠果實.cs" />
-    <Compile Include="自然系果實.cs" />
-    <Compile Include="超人系果實.cs" />
-    <Compile Include="超妙蛙花.cs" />
-    <Compile Include="防禦用道具.cs" />
-    <Compile Include="飛毯.cs" />
-    <Compile Include="飛行糖果.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Lecture07\PokemonLibrary\PokemonLibrary.csproj">
+      <Project>{769ec141-1cfa-44dd-add5-11deddf4bb71}</Project>
+      <Name>PokemonLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
